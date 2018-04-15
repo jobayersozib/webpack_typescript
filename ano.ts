@@ -1,4 +1,8 @@
- class Base {
+type INFO={name:string,mobile:number}
+
+
+class Base {
+    protected info:INFO;
     constructor(){
         console.log("Super class with import....")
     }

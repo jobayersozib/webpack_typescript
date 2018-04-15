@@ -1,12 +1,13 @@
  
 
- import {Base} from './ano';
+import {Base} from './ano';
  
 class Test extends Base{
      constructor(){
          super()
          console.log("Constructing....")
-         console.log(document.getElementById("elm").getAttribute("id"))
+         this.info={name:"jobayer", mobile:1717979764}
+         console.log(this.info)
      }
 
     public sum(num1:number,num2:number){
